@@ -16,4 +16,28 @@ p {
   font-family: "Karla", sans-serif;
 }
 
- 
+ .eWjCzc{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: #9270fa  !important;
+  color: #c2c2c2 !important;
+  border: solid 3px !important;
+  
+ }
+
+ .eWjCzc:hover{
+  background-color: rgb(174, 0, 255) !important;
+  color: #fff !important;
+  
+}
+.sc-gKXOVf{  
+  border: solid 1px #c2c2c2 !important;
+  width: 15px !important;
+  height: 15px !important;
+box-shadow: none !important;
+}
+.krmNah {
+  background-color: rgb(174, 0, 255) !important;
+  
+ }

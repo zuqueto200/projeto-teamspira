@@ -70,7 +70,7 @@ export function Roxo() {
         <p className="pSoloContato m-0 mt-4">
           <strong>Contato:</strong>
         </p>
-        <p className="pSoloContatoEmail mb-5">minuteams@solo.st</p>
+        <a href="mailto:minuteams@solo.st" className="pSoloContatoEmail mb-5">minuteams@solo.st</a>
       </div>
     </div>
   );
