@@ -16,7 +16,7 @@ p {
   font-family: "Karla", sans-serif;
 }
 
- .eWjCzc{
+ .rec-arrow{
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -26,18 +26,20 @@ p {
   
  }
 
- .eWjCzc:hover{
+ .rec-arrow:hover{
   background-color: rgb(174, 0, 255) !important;
   color: #fff !important;
   
 }
-.sc-gKXOVf{  
+.rec-pagination button{  
   border: solid 1px #c2c2c2 !important;
   width: 15px !important;
-  height: 15px !important;
-box-shadow: none !important;
+  height: 15px !important;  
+  box-shadow: none !important;
+  color: #c2c2c2 !important;
+
 }
-.krmNah {
+.rec-dot_active {
   background-color: rgb(174, 0, 255) !important;
   
  }

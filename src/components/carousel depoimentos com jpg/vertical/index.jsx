@@ -11,7 +11,7 @@ export function Vertical() {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 450, itemsToShow: 1.5 },
-    { width: 600, itemsToShow: 1.5, itemsToScroll: 1, pagination: false },
+    { width: 600, itemsToShow: 1.5, itemsToScroll: 1},
     { width: 970, itemsToShow: 1.5, itemsToScroll: 2 },
     { width: 1150, itemsToShow: 2, itemsToScroll: 2 },
     { width: 1450, itemsToShow: 2.5 },
