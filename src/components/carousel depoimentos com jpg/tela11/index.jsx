@@ -1,0 +1,82 @@
+import React, { useState } from "react";
+import "./index.css";
+import { GoPlus } from "react-icons/go";
+import btGrade from "../../../assets/img/img (6).png";
+
+export function Drop() {
+  const [abrirMenu, setAbrirMenu] = useState(-1);
+  const optons = [
+    {
+      titulo: "3. Visão geral do Teams e do Microsoft 365 👁️‍🗨️",
+
+      conteudo:
+        "Nós é quem somos os protagonistas, não as ferramentas. Vamos introduzir conceitos modernos de trabalho e abordaremos as principais funções do Teams e do 365.",
+    },
+    {
+      titulo: "5. Reuniões e calendário 📅",
+
+      conteudo:
+        "Menos reuniões, mais comunicação assíncrona. Abordaremos os calendários e as reuniões virtuais. Mostraremos que as reuniões devem ser momentos sagrados, e por isso devemos usar todos os recursos a nosso favor.",
+    },
+    {
+      titulo: "8. Gerenciando tarefas e projetos ✅",
+
+      conteudo:
+        "As metodologias ágeis vieram para ficar. Abordaremos como o Planner pode ajudar a gerenciar tarefas, projetos e rotinas diárias. Também mostraremos que dar visibilidade às tarefas em equipe pode desbloquear a inteligência coletiva.",
+    },
+    {
+      titulo: "11. Adoção e mudança de cultura na organização 🚀",
+
+      conteudo:
+        "Mudança de cultura é uma maratona, e não uma corrida de 100m! Uma coisa é aprender a mexer no Teams e conhecer os recursos disponíveis do 365. Outra coisa bem diferente é a jornada de transformação digital nas organizações. Daremos dicas de como começar essa jornada.",
+    },
+  ];
+
+  function fnAbrir(i) {
+    if (abrirMenu === i) setAbrirMenu(-1);
+    if (abrirMenu !== i) setAbrirMenu(i);
+  }
+
+  return (
+    <>
+      <div className="div11">
+        <div className="div11Content">
+          <p className="p11-1">
+            São mais de 5 horas de conteúdo bem distribuídos em 12 módulos +
+            material de apoio.
+          </p>
+          <p className="p11-2">
+            Quase 90 vídeos curtinhos e objetivos, que no final vão te ajudar a
+            reiventar a forma que você e sua equipe se comunicam
+          </p>
+          <div className="divBtGrade">
+            <img width={40} className="px-1 mr-3 " src={btGrade} alt="botão" />{" "}
+            <span className="bt11 m-0">Grade completa do Teamspira</span>
+          </div>
+        </div>
+
+        <div className="menuTodo">
+          {optons.map((e, i) => (
+            <div key={i} className="menu">
+              <div className="menuTitulo" onClick={() => fnAbrir(i)}>
+                <div>
+                  <GoPlus
+                    className={abrirMenu === i ? "plus plusActive" : "plus"}
+                  />
+                </div>
+                <p className="tituloDrop">{e.titulo}</p>
+              </div>
+              {abrirMenu === i ? (
+                <div className="menuConteudoExterno">
+                  <div className="menuConteudo">
+                    <p className="tituloDrop">{e.conteudo}</p>
+                  </div>
+                </div>
+              ) : null}
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
+  );
+}

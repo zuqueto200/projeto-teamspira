@@ -1,0 +1,67 @@
+@media screen and (max-width: 1500px) {
+  .imgHorizontalCarousel {
+    width: 500px !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .imgHorizontalCarousel {
+    width: 400px !important;
+  }
+}
+@media screen and (max-width: 790px) {
+  .imgHorizontalCarousel {
+    width: 300px !important;
+  }
+  .pCarouselDepoimentosTela1 {
+    font-size: 30px !important;
+    line-height: 27px !important;
+    margin-top: 30px !important;
+  }
+  .pCarouselDepoimentosTela2 {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    margin-bottom: 50px !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .imgHorizontalCarousel {
+    width: 240px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .imgHorizontalCarousel {
+    width: 60vw !important;
+  }
+}
+
+.carouselDivLogoCliente {
+  border: 1px solid #dfe7ec;
+  border-radius: 10px !important;
+  margin: 10px;
+}
+
+.imgHorizontalCarousel {
+  width: 630px;
+  margin: 10px;
+  pointer-events: none;
+}
+
+.pCarouselDepoimentosTela1 {
+  text-align: center;
+  font-size: 48px;
+  line-height: 56px;
+  color: #c2c2c2;
+  margin-top: 100px;
+  max-width: 1000px;
+  padding: 30px;
+}
+
+.pCarouselDepoimentosTela2 {
+  text-align: center;
+  font-size: 18px;
+  color: #6d7b82;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  max-width: 850px;
+  padding: 0 30px;
+}

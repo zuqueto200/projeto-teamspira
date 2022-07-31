@@ -1,0 +1,62 @@
+@media screen and (max-width: 650px) {
+  .pFooter1 {
+    font-size: 25px !important;
+  }
+  .pFooter2 {
+    font-size: 20px !important;
+  }
+  .pFooter3 {
+    font-size: 30px !important;
+  }
+  .pFooter4 {
+    font-size: 18px !important;
+  }
+}
+
+.divFooter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/img/bg/bg9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+  width: 100%;
+  position: relative;
+  padding: 30px 30px 280px 30px;
+}
+
+.pFooter1 {
+  text-align: center;
+  font-size: 37px;
+  color: #ffffff;
+  opacity: 0.8;
+  max-width: 728px;
+  margin-top: 80px;
+}
+.pFooter2 {
+  text-align: center;
+  font-size: 32px;
+  color: #c2c2c2;
+  max-width: 920px;
+  margin: 70px 0;
+}
+.pFooter3 {
+  text-align: center;
+  font-size: 37px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: 20px;
+}
+.pFooter4 {
+  max-width: 470px;
+  text-align: center;
+  font-size: 22px;
+  color: #c2c2c2;
+  opacity: 0.8;
+}
+
+.fotoPerfil {
+  max-width: 180px;
+}

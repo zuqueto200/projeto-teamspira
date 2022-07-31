@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+  .barraCompraDesk {
+    display: none;
+  }
+  .barraCompraMobile {
+    display: block !important;
+  }
+}
+.barraCompraMobile {
+  display: none;
+  width: 70vw;
+}
+.divBarraComprar0 {
+  position: fixed;
+  bottom: 30px;
+  left: 250%;
+  transform: translate(-50%, 0);
+  cursor: pointer;
+  animation: move 0.5s linear 3s forwards;
+}
+
+@keyframes move {
+  100% {
+    left: 50%;
+  }
+}
+
+.barraCompraDesk {
+  max-width: 1800px;
+  width: 90vw;
+  filter: brightness(0.95);
+}
+.barraCompraDesk:hover {
+  filter: brightness(1);
+}

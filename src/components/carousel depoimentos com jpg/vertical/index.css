@@ -1,0 +1,94 @@
+@media screen and (max-width: 1380px) {
+  .pCarousel1 {
+    font-size: 50px !important;
+    margin-top: 70px !important;
+  }
+}
+@media screen and (max-width: 950px) {
+  .imgVerticalCarousel {
+    width: 380px !important;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .pCarousel1 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+    margin-top: 0px !important;
+  }
+  .imgVerticalCarousel {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pCarousel1 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+    margin-top: 0px !important;
+  }
+  .imgVerticalCarousel {
+    width: 200px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pCarousel1 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+    margin-top: 0px !important;
+  }
+  .imgVerticalCarousel {
+    width: 180px !important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .pCarouselDepoimentosTela3 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+    padding: 30px !important;
+  }
+}
+.divCarousel0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../../assets/img/bg/bg7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.pCarouselDepoimentosTela3 {
+  text-align: center;
+  font-size: 48px;
+  line-height: 56px;
+  color: #c2c2c2;
+  margin-top: 100px;
+  max-width: 990px;
+  margin-bottom: 100px;
+}
+
+.containerCarouselImage {
+  display: flex;
+  justify-content: center;
+}
+
+.pCarousel1 {
+  text-align: center;
+  font-size: 48px;
+  line-height: 56px;
+  padding: 30px;
+  color: #ffffff;
+  max-width: 880px;
+  margin-top: 70px;
+}
+
+.imgVerticalCarousel {
+  width: 540px;
+  pointer-events: none;
+}

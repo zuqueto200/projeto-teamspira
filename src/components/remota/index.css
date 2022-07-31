@@ -1,0 +1,84 @@
+@media screen and (max-width: 1380px) {
+  .pRemoto1 {
+    font-size: 40px !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .pRemoto1 {
+    margin: 30px 0 30px 0 !important;
+    line-height: 35px !important;
+    font-size: 23px !important;
+    line-height: 27px !important;
+  }
+  .divRemotoCard {
+    max-width: 140px;
+    min-width: 140px;
+    max-height: 120px;
+    min-height: 130px;
+  }
+  .remotoCard {
+    width: 50px !important;
+  }
+  .pRemoto {
+    font-size: 12px !important;
+    line-height: 17px !important;
+  }
+}
+
+.divRemota0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/img/bg/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+  width: 100%;
+  position: relative;
+}
+
+.pRemoto1 {
+  text-align: center;
+  font-size: 48px;
+  line-height: 56px;
+  color: #c2c2c2;
+  max-width: 1260px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 30px;
+}
+
+.divContainerRemoto {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.divRemotoCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 320px;
+  height: 240px;
+  border: 1px solid #dfe7ec;
+  background: #242834 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.remotoCard {
+  width: 120px;
+  display: flex;
+}
+.pRemoto {
+  text-align: center;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+  width: 80%;
+}
