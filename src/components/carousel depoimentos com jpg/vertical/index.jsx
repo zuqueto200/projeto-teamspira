@@ -1,6 +1,7 @@
 import React from "react";
 
 import Carousel from "react-elastic-carousel";
+import { Zoom } from "react-reveal";
 import imgCarouselVertical1 from "../../../assets/img/vertical (1).png";
 import imgCarouselVertical2 from "../../../assets/img/vertical (2).png";
 import imgCarouselVertical3 from "../../../assets/img/vertical (3).png";
@@ -11,7 +12,7 @@ export function Vertical() {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 450, itemsToShow: 1.5 },
-    { width: 600, itemsToShow: 1.5, itemsToScroll: 1},
+    { width: 600, itemsToShow: 1.5, itemsToScroll: 1 },
     { width: 970, itemsToShow: 1.5, itemsToScroll: 2 },
     { width: 1150, itemsToShow: 2, itemsToScroll: 2 },
     { width: 1450, itemsToShow: 2.5 },
@@ -25,37 +26,45 @@ export function Vertical() {
       </p>
 
       <Carousel breakPoints={breakPoints}>
-        <div>
-          <img
-            className="imgVerticalCarousel"
-            src={imgCarouselVertical1}
-            alt=""
-          />
-        </div>
+        <Zoom>
+          <div>
+            <img
+              className="imgVerticalCarousel"
+              src={imgCarouselVertical1}
+              alt=""
+            />
+          </div>
+        </Zoom>
 
-        <div>
-          <img
-            className="imgVerticalCarousel"
-            src={imgCarouselVertical2}
-            alt=""
-          />
-        </div>
+        <Zoom>
+          <div>
+            <img
+              className="imgVerticalCarousel"
+              src={imgCarouselVertical2}
+              alt=""
+            />
+          </div>
+        </Zoom>
 
-        <div>
-          <img
-            className="imgVerticalCarousel"
-            src={imgCarouselVertical3}
-            alt=""
-          />
-        </div>
+        <Zoom>
+          <div>
+            <img
+              className="imgVerticalCarousel"
+              src={imgCarouselVertical3}
+              alt=""
+            />
+          </div>
+        </Zoom>
 
-        <div>
-          <img
-            className="imgVerticalCarousel"
-            src={imgCarouselVertical4}
-            alt=""
-          />
-        </div>
+        <Zoom>
+          <div>
+            <img
+              className="imgVerticalCarousel"
+              src={imgCarouselVertical4}
+              alt=""
+            />
+          </div>
+        </Zoom>
       </Carousel>
     </>
   );

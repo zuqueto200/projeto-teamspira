@@ -3,7 +3,7 @@ import "./index.css";
 import img1 from "../../assets/img/img (18).png";
 import img2 from "../../assets/img/img (10).png";
 import img3 from "../../assets/img/img (5).png";
-
+import Fade from 'react-reveal/Fade';
 export function Home() {
   return (
     <div className="divHome0">
@@ -21,13 +21,22 @@ export function Home() {
       </div>
 
       <img className="imgHome2" src={img2} alt="imagem decorativa" />
+
       <div className="divHome1  ">
+
+
+      <Fade right>
+
         <img
-          className="imgHome3"
+          className="imgHome3 "
           src={img3}
           width="100%"
           alt="imagem decorativa"
-        />
+          />
+
+          </Fade>
+
+
       </div>
     </div>
   );

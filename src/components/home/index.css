@@ -116,7 +116,18 @@
 .divHome1 {
   display: flex;
   max-width: 933px;
+  overflow: hidden;
 }
-.imgHome3 {
-  margin-bottom: 50px;
+.imgHome3 { 
+  margin-bottom: 50px; 
+  animation: fadeInRight 1s ease-in-out;
+} 
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+  }
 }

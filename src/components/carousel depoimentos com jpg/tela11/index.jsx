@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./index.css";
 import { GoPlus } from "react-icons/go";
 import btGrade from "../../../assets/img/img (6).png";
+import { Fade } from "react-reveal";
 
 export function Drop() {
   const [abrirMenu, setAbrirMenu] = useState(-1);
@@ -40,6 +41,8 @@ export function Drop() {
   return (
     <>
       <div className="div11">
+        <Fade left>
+
         <div className="div11Content">
           <p className="p11-1">
             São mais de 5 horas de conteúdo bem distribuídos em 12 módulos +
@@ -54,18 +57,22 @@ export function Drop() {
             <span className="bt11 m-0">Grade completa do Teamspira</span>
           </div>
         </div>
+        </Fade>
 
         <div className="menuTodo">
           {optons.map((e, i) => (
+            
             <div key={i} className="menu">
+              <Fade right delay={400 * i }>
               <div className="menuTitulo" onClick={() => fnAbrir(i)}>
                 <div>
                   <GoPlus
                     className={abrirMenu === i ? "plus plusActive" : "plus"}
-                  />
+                    />
                 </div>
                 <p className="tituloDrop">{e.titulo}</p>
               </div>
+              </Fade>
               {abrirMenu === i ? (
                 <div className="menuConteudoExterno">
                   <div className="menuConteudo">
