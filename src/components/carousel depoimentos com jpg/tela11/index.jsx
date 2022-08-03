@@ -42,42 +42,49 @@ export function Drop() {
     <>
       <div className="div11">
         <Fade left>
-
-        <div className="div11Content">
-          <p className="p11-1">
-            São mais de 5 horas de conteúdo bem distribuídos em 12 módulos +
-            material de apoio.
-          </p>
-          <p className="p11-2">
-            Quase 90 vídeos curtinhos e objetivos, que no final vão te ajudar a
-            reiventar a forma que você e sua equipe se comunicam
-          </p>
-          <div className="divBtGrade">
-            <img width={40} className="px-1 mr-3 " src={btGrade} alt="botão" />{" "}
-            <span className="bt11 m-0">Grade completa do Teamspira</span>
+          <div className="div11Content">
+            <p className="p11-1">
+              São mais de 5 horas de conteúdo bem distribuídos em 12 módulos +
+              material de apoio.
+            </p>
+            <p className="p11-2">
+              Quase 90 vídeos curtinhos e objetivos, que no final vão te ajudar
+              a reiventar a forma que você e sua equipe se comunicam.
+            </p>
+            <div className="divBtGrade">
+              <img
+                width={40}
+                className="px-1 mr-3 "
+                src={btGrade}
+                alt="botão"
+              />{" "}
+              <span className="bt11 m-0">Grade completa do Teamspira</span>
+            </div>
           </div>
-        </div>
         </Fade>
 
         <div className="menuTodo">
           {optons.map((e, i) => (
-            
             <div key={i} className="menu">
-              <Fade right delay={400 * i }>
-              <div className="menuTitulo" onClick={() => fnAbrir(i)}>
-                <div>
-                  <GoPlus
-                    className={abrirMenu === i ? "plus plusActive" : "plus"}
+              <Fade right delay={400 * i}>
+                <div className="menuTitulo" onClick={() => fnAbrir(i)}>
+                  <div className="divPlus">
+                    <GoPlus
+                      className={abrirMenu === i ? "plus plusActive" : "plus"}
                     />
+                  </div>
+                  <p className="tituloDrop">{e.titulo}</p>
                 </div>
-                <p className="tituloDrop">{e.titulo}</p>
-              </div>
               </Fade>
               {abrirMenu === i ? (
                 <div className="menuConteudoExterno">
+                  <Fade top duration={200} >
+
                   <div className="menuConteudo">
                     <p className="tituloDrop">{e.conteudo}</p>
                   </div>
+                  
+                  </Fade>
                 </div>
               ) : null}
             </div>

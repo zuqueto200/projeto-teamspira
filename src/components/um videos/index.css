@@ -9,7 +9,7 @@
 }
 @media screen and (max-width: 650px) {
   .pUmVideo1 {
-    font-size: 30px !important;
+    font-size: 25px !important;
     line-height: 30px !important;
   }
 }
@@ -34,6 +34,7 @@
   color: #c2c2c2;
   max-width: 1084px;
   margin-top: 50px;
+  font-weight: 500 ;
 }
 
 .containerUmVideo {

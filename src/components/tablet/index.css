@@ -8,17 +8,17 @@
 }
 @media screen and (max-width: 650px) {
   .pTablet1 {
-    max-width: 360px !important;
-    font-size: 23px !important;
-    line-height: 21px !important;
+    max-width: 330px !important;
+    font-size: 25px !important;
+    line-height: 30px !important;
   }
   .pTablet2 {
     display: none;
   }
   .pTablet3 {
     display: block !important;
-    font-size: 16px !important;
-    line-height: 16px !important;
+    font-size: 17px !important;
+    line-height: 20px !important;
     padding: 20px !important;
     margin: 50px 0 0 0 !important;
   }
@@ -38,11 +38,13 @@
 }
 .pTablet1 {
   text-align: center;
-  font-size: 41px;
+  font-size: 48px;
   line-height: 56px;
   color: #c2c2c2;
   opacity: 1;
   max-width: 764px;
+  font-weight: 500 ;
+  margin-top: 50px;
 }
 
 .divTablet1 {

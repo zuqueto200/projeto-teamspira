@@ -1,6 +1,7 @@
 @media screen and (max-width: 650px) {
   .pFooter1 {
     font-size: 25px !important;
+    line-height: 30px !important;
   }
   .pFooter2 {
     font-size: 20px !important;

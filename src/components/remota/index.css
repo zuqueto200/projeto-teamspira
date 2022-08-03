@@ -8,22 +8,41 @@
   .pRemoto1 {
     margin: 30px 0 30px 0 !important;
     line-height: 35px !important;
-    font-size: 23px !important;
-    line-height: 27px !important;
+    font-size: 25px !important;
+    line-height: 30px !important;
   }
   .divRemotoCard {
-    max-width: 140px;
-    min-width: 140px;
-    max-height: 120px;
-    min-height: 130px;
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 140px;
+    min-height: 140px;
   }
-  .remotoCard {
-    width: 50px !important;
+  .remotoCard { 
+    margin-top: 20px;
+    width: 70px !important;
   }
   .pRemoto {
-    font-size: 12px !important;
+    margin-top: 10px;
+    font-size: 15px !important;
     line-height: 17px !important;
   }
+  .margemX {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .margemY {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  
+}
+.margemX {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.margemY {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .divRemota0 {
@@ -48,6 +67,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
   padding: 30px;
+  font-weight: 500 ;
 }
 
 .divContainerRemoto {

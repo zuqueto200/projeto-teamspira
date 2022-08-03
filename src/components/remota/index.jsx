@@ -12,29 +12,29 @@ export function Remota() {
       <Fade left>
         <p className="pRemoto1">
           Conheça novos recursos de comunicação enquanto aprende sobre cultura
-          remota de trabalho
+          remota de trabalho.
         </p>
       </Fade>
       <Fade right>
         <div className="divContainerRemoto">
-          <div className="divRemotoCard mx-4 ">
+          <div className="divRemotoCard margemX ">
             <img className="remotoCard" src={remoto1} alt="icones microsoft" />
             <p className="pRemoto">Menos E-mails e Whatsapp</p>
           </div>
 
-          <div className="divRemotoCard mx-4 my-4">
+          <div className="divRemotoCard margemX margemY">
             <img className="remotoCard" src={remoto2} alt="icones microsoft" />
             <p className="pRemoto">Menos reuniões</p>
           </div>
 
-          <div className="divRemotoCard mx-4">
+          <div className="divRemotoCard margemX">
             <img className="remotoCard" src={remoto3} alt="icones microsoft" />
             <p className="pRemoto">
               Mais colaboração e conexão entre as pessoas
             </p>
           </div>
 
-          <div className="divRemotoCard mx-4 my-4">
+          <div className="divRemotoCard margemX margemY">
             <img className="remotoCard" src={remoto4} alt="icones microsoft" />
             <p className="pRemoto">
               Equilíbrio entre produtividade e bem-estar

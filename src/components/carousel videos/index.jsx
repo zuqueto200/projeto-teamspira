@@ -1,7 +1,7 @@
 import "./index.css";
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import { Fade, Zoom } from "react-reveal";
+import { Zoom } from "react-reveal";
 
 export function CarouselVideos() {
   return (
@@ -9,13 +9,13 @@ export function CarouselVideos() {
       <div className="divCarousel1">
         <Zoom>
           <p className="pCarouselVideos1">
-            Materialize boas práticas de comunicação síncrona e assíncrona
+            Materialize boas práticas de comunicação síncrona e assíncrona.
           </p>
         </Zoom>
 
         
 
-          <Carousel className="containerCarousel">
+          <Carousel className="containerCarousel" >
             <div className="CarouselRes">
               <iframe
                 title="video carousel"

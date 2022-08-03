@@ -22,7 +22,7 @@ export function Vertical() {
   return (
     <>
       <p className="pCarouselDepoimentosTela3">
-        Inspire-se com exemplos reais e transforme seus hábitos de comunicação
+        Inspire-se com exemplos reais e transforme seus hábitos de comunicação.
       </p>
 
       <Carousel breakPoints={breakPoints}>

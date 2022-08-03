@@ -1,10 +1,3 @@
-@media screen and (max-width: 1280px) {
-  .p11-1 {
-    font-size: 30px !important;
-
-    line-height: 30px !important;
-  }
-}
 @media screen and (max-width: 1320px) {
   .div11 {
     flex-direction: column !important;
@@ -25,10 +18,36 @@
   }
   .menuTodo {
     max-width: 685px !important;
-    min-width: 200px !important;
+    min-width: 200px !important; 
   }
   .div11 {
     width: 95% !important;
+  }
+  .menuConteudo{
+    min-width: 280px !important;
+}
+}
+
+@media screen and (max-width: 1280px) {
+  .p11-1 {
+    font-size: 25px !important;
+
+    line-height: 30px !important;
+  }
+  .menuConteudo{
+    min-width: 350px !important;
+}
+}
+
+@media screen and (max-width: 360px) {
+  .tituloDrop {
+    font-size: 10px !important;
+  }
+  .menuTitulo,.menuConteudo {
+    min-width: 280px !important;
+  }
+  .plus{
+    margin: 0 5px !important; 
   }
 }
 
@@ -62,6 +81,7 @@
 
 .menuTitulo p {
   margin: 0;
+  padding: 7px 0;
 }
 .menuTitulo {
   display: flex;
@@ -69,11 +89,12 @@
   margin: 0;
   margin: 5px 0 0 0;
   color: #c2c2c2;
-  border: solid #c2c2c2 2px;
+  border: solid #c2c2c2 1px;
   font-family: sans-serif;
   font-size: 20px;
   border-radius: 10px;
   max-width: 650px;
+  min-width: 350px;
   width: 100%;
   padding: 10px 5px;
   cursor: pointer;
@@ -97,7 +118,11 @@
   margin: 10px 0;
   background-color: #a9afb629;
 }
-
+.divPlus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .plus {
   font-size: 15px !important;
   margin: 0 15px;
@@ -117,6 +142,7 @@
   color: #c2c2c2;
   max-width: 624px;
   margin-bottom: 40px;
+  font-weight: 500;
 }
 .p11-2 {
   text-align: left;

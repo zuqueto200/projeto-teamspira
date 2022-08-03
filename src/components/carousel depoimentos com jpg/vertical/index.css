@@ -38,13 +38,13 @@
     margin-top: 0px !important;
   }
   .imgVerticalCarousel {
-    width: 180px !important;
+    width: 80vw !important;
   }
 }
 
 @media screen and (max-width: 1280px) {
   .pCarouselDepoimentosTela3 {
-    font-size: 30px !important;
+    font-size: 25px !important;
     line-height: 30px !important;
     padding: 30px !important;
   }
@@ -71,22 +71,14 @@
   margin-top: 100px;
   max-width: 990px;
   margin-bottom: 100px;
+  font-weight: 500 ;
 }
 
 .containerCarouselImage {
   display: flex;
   justify-content: center;
 }
-
-.pCarousel1 {
-  text-align: center;
-  font-size: 48px;
-  line-height: 56px;
-  padding: 30px;
-  color: #ffffff;
-  max-width: 880px;
-  margin-top: 70px;
-}
+ 
 
 .imgVerticalCarousel {
   width: 540px;
