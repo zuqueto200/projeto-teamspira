@@ -9,7 +9,12 @@
 .barraCompraMobile {
   display: none;
   width: 70vw;
+  filter: brightness(0.95);
 }
+  .barraCompraMobile:hover {
+    filter: brightness(1);
+
+  }
 .divBarraComprar0 {
   position: fixed;
   bottom: 30px;

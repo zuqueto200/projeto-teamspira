@@ -10,7 +10,7 @@ import { Bounce, Rotate } from "react-reveal";
 export function Roxo() {
   return (
     <div className="divRoxo0">
-      <p className="pRoxo1 pRoxoVerde">Pra quem é este curso.</p>
+      <p className="pRoxo1">Pra quem é este curso.</p>
       <p className="pRoxo1-1">
         Equipes ou pessoas que queiram melhorar a{" "}
         <span className="pRoxoVerde">qualidade da comunicação</span> no seu
