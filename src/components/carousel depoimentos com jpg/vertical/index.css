@@ -1,47 +1,4 @@
-@media screen and (max-width: 1380px) {
-  .pCarousel1 {
-    font-size: 50px !important;
-    margin-top: 70px !important;
-  }
-}
-@media screen and (max-width: 950px) {
-  .imgVerticalCarousel {
-    width: 380px !important;
-  }
-}
-
-@media screen and (max-width: 710px) {
-  .pCarousel1 {
-    font-size: 30px !important;
-    line-height: 30px !important;
-    margin-top: 0px !important;
-  }
-  .imgVerticalCarousel {
-    width: 300px !important;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .pCarousel1 {
-    font-size: 30px !important;
-    line-height: 30px !important;
-    margin-top: 0px !important;
-  }
-  .imgVerticalCarousel {
-    width: 200px !important;
-  }
-}
-@media screen and (max-width: 450px) {
-  .pCarousel1 {
-    font-size: 30px !important;
-    line-height: 30px !important;
-    margin-top: 0px !important;
-  }
-  .imgVerticalCarousel {
-    width: 80vw !important;
-  }
-}
-
+ 
 @media screen and (max-width: 1280px) {
   .pCarouselDepoimentosTela3 {
     font-size: 25px !important;
@@ -71,16 +28,16 @@
   margin-top: 100px;
   max-width: 990px;
   margin-bottom: 100px;
-  font-weight: 500 ;
+  font-weight: 500;
 }
 
 .containerCarouselImage {
   display: flex;
   justify-content: center;
 }
- 
 
 .imgVerticalCarousel {
-  width: 540px;
+  max-width: 600px;
+  width: 70vw;
   pointer-events: none;
 }

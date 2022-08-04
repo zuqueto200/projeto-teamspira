@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import imgIcones from "../../assets/img/img (8).png";
-import imgIconesCirculo from "../../assets/img/img (30).png";
+import imgMobile from "../../assets/img/Apps-Mobile.png";
 import { Fade, Flip } from "react-reveal";
 
 export function Icones() {
@@ -17,7 +17,7 @@ export function Icones() {
         <img className="iconesBanner" src={imgIcones} alt="icones microsoft" />
         <img
           className="iconesBannerCirculo"
-          src={imgIconesCirculo}
+          src={imgMobile}
           alt="icones microsoft"
         />
         <Fade bottom>
