@@ -26,7 +26,7 @@ export function Vertical() {
         Inspire-se com exemplos reais e transforme seus hábitos de comunicação.
       </p>
 
-      <Carousel breakPoints={breakPoints}>
+      <Carousel breakPoints={breakPoints} showArrows={false}>
         <Zoom>
           <div>
             <img

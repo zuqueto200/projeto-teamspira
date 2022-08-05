@@ -20,7 +20,7 @@ export function Roxo() {
 
       <div className="divContainerRoxo">
         <Bounce>
-          <div className="divRoxo  ">
+          <div className="divRoxo margemX ">
             <p className="pRoxo">
               Quem trabalha diretamente com{" "}
               <span className="pRoxoVerde">comunicação nas empresas.</span>
@@ -28,7 +28,7 @@ export function Roxo() {
           </div>
         </Bounce>
         <Bounce>
-          <div className="divRoxo margemEdit">
+          <div className="divRoxo margemX margemY">
             <p className="pRoxo">
               Para líderes de{" "}
               <span className="pRoxoVerde">equipes remotas e distribuídas.</span>
@@ -36,7 +36,7 @@ export function Roxo() {
           </div>
         </Bounce>
         <Bounce>
-          <div className="divRoxo ">
+          <div className="divRoxo margemX ">
             <p className="pRoxo">
               Pessoas envolvidas em{" "}
               <span className="pRoxoVerde">
@@ -46,7 +46,7 @@ export function Roxo() {
           </div>
         </Bounce>
         <Bounce>
-          <div className="divRoxo margemEdit">
+          <div className="divRoxo margemX margemY">
             <p className="pRoxo">
               Profissionais de RH que{" "}
               <span className="pRoxoVerde m">

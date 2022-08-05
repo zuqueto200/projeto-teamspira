@@ -24,14 +24,15 @@ a, a:hover{
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  background-color: #9270fa  !important;
-  color: #c2c2c2 !important;
-  border: solid 3px !important;
+  background-color: #9270fa00  !important;
+  color: #ffffff !important;
+  border: solid 0 !important;
+  width: 10px !important;
   
  }
 
  .rec-arrow:hover{
-  background-color: rgb(174, 0, 255) !important;
+  background-color: rgba(174, 0, 255, 0) !important;
   color: #fff !important;
   
 }
@@ -48,6 +49,17 @@ a, a:hover{
   background-color: rgb(174, 0, 255) !important;
   
  }
- .rec-arrow{
+ /* .rec-arrow{
   display: none !important;
+ } */
+
+ .rec-arrow-right{
+  display: flex !important;
+  justify-content: flex-start !important; 
+  font-size: 30px !important;
+}
+.rec-arrow-left{
+  display: flex !important;
+  justify-content: flex-end !important; 
+  font-size: 30px !important;
  }

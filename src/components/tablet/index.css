@@ -42,8 +42,9 @@
   line-height: 56px;
   color: #c2c2c2;
   opacity: 1;
-  max-width: 764px;
-  font-weight: 500 ;
+  max-width: 850px;
+  padding: 30px;
+  font-weight: 700 ;
   margin-top: 50px;
 }
 

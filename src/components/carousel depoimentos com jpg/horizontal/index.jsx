@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import CarouselH from "react-elastic-carousel";
 import { Fade, Zoom } from "react-reveal";
@@ -22,12 +22,26 @@ export function Horizontal() {
     { width: 1610, itemsToShow: 2.5 },
   ];
 
+
+
+  const [currentItem, setCurrentItem] = React.useState(0);
+  const onCurrentChange = current => {
+    setCurrentItem(current.index)
+  }
+
+ useEffect(() => {
+
+ console.log( document.querySelectorAll('.divCarousel0, .rec-carousel-wrapper .rec-pagination button'))
+
+  }, [])
+
+  
   return (
     <>
       <div className="divCarouselImage1">
         <Fade left>
         <p className="pCarouselDepoimentosTela1">
-          O que dizem dos nossos treinamentos.
+          O que dizem dos nossos treinamentos
         </p>
         </Fade>
         <Fade right>
@@ -42,7 +56,7 @@ export function Horizontal() {
       </div>
 
 
-      <CarouselH breakPoints={breakPoints}>
+      <CarouselH breakPoints={breakPoints} enableAutoPlay={true} autoPlaySpeed={50} showArrows={false} >
         <Zoom>
         <div className="carouselDivLogoCliente">
           <img className="imgHorizontalCarousel " src={imgDepoimentos1} alt="" />

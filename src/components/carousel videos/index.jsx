@@ -4,6 +4,11 @@ import Carousel from "react-elastic-carousel";
 import { Zoom } from "react-reveal";
 
 export function CarouselVideos() {
+ 
+
+  
+
+// style={{ pointerEvents: blockSlider ? 'none' : 'auto' }}
   return (
     <div className="divCarousel0">
       <div className="divCarousel1">
@@ -13,9 +18,13 @@ export function CarouselVideos() {
           </p>
         </Zoom>
 
-        <Carousel className="containerCarousel">
+        <Carousel className="containerCarousel" enableMouseSwipe={true} showArrows={true}>
+
+
           <div className="CarouselRes">
-            <iframe
+
+
+            <iframe  
               src="https://player.vimeo.com/video/736497229?h=d28d119a11"
               frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture"
