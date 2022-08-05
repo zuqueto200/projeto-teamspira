@@ -15,7 +15,11 @@ body{
 p {
   font-family: "Karla", sans-serif;
 }
+a, a:hover{
+  text-decoration: none;
+  color: initial;
 
+}
  .rec-arrow{
   display: flex !important;
   justify-content: center !important;

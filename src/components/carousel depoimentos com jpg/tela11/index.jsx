@@ -51,15 +51,17 @@ export function Drop() {
               Quase 90 vídeos curtinhos e objetivos, que no final vão te ajudar
               a reiventar a forma que você e sua equipe se comunicam.
             </p>
-            <div className="divBtGrade">
-              <img
-                width={40}
-                className="px-1 mr-3 "
-                src={btGrade}
-                alt="botão"
-              />{" "}
-              <span className="bt11 m-0">Grade completa do Teamspira</span>
-            </div>
+            <a href="https://solotecnologia.sharepoint.com/:b:/s/CursoTeamspira/EUFWgm4r7JdHhE2N7RgTB4UBEmjuj5BfcKUBFK9O6TY-0A?e=OqRDt5">
+              <div className="divBtGrade">
+                <img
+                  width={40}
+                  className="px-1 mr-3 "
+                  src={btGrade}
+                  alt="botão"
+                />{" "}
+                <span className="bt11 m-0">Grade completa do Teamspira</span>
+              </div>
+            </a>
           </div>
         </Fade>
 
@@ -78,12 +80,10 @@ export function Drop() {
               </Fade>
               {abrirMenu === i ? (
                 <div className="menuConteudoExterno">
-                  <Fade top duration={200} >
-
-                  <div className="menuConteudo">
-                    <p className="tituloDrop">{e.conteudo}</p>
-                  </div>
-                  
+                  <Fade top duration={200}>
+                    <div className="menuConteudo">
+                      <p className="tituloDrop">{e.conteudo}</p>
+                    </div>
                   </Fade>
                 </div>
               ) : null}

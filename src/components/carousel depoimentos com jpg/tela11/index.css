@@ -162,13 +162,13 @@
   opacity: 1;
   max-width: 500px;
   min-width: 445px;
-  padding: 20px 0;
+  padding: 12px 0;
   cursor: pointer;
 }
 
 .bt11 {
   font-size: 27px;
-  font-weight: 700;
+  font-weight: 500;
   color: #212531;
   margin-bottom: 30px;
 }
