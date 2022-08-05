@@ -15,50 +15,40 @@ export function CarouselVideos() {
 
         <Carousel className="containerCarousel">
           <div className="CarouselRes">
-            {/* MOD3_ITEM7 (Comunicação síncrona x assíncrona)
-            https://vimeo.com/736497229/d28d119a11 */}
             <iframe
-              src="https://player.vimeo.com/video/735631173?h=b9d8c148bf"
+              src="https://player.vimeo.com/video/736497229?h=d28d119a11"
               frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
           <div className="CarouselRes">
-            {/* MOD3_ITEM12 (Brincando com emojis)
-            https://vimeo.com/736497951/1cbd974f7f */}
             <iframe
-              src="https://player.vimeo.com/video/735631173?h=b9d8c148bf"
+              src="https://player.vimeo.com/video/736497951?h=1cbd974f7f"
               frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
           <div className="CarouselRes">
-            {/* MOD5_ITEM4 (Reuniões comuns x Reuniões nos canais)
-            https://vimeo.com/736498760/4f32a500f9 */}
             <iframe
-              src="https://player.vimeo.com/video/735631173?h=b9d8c148bf"
+              src="https://player.vimeo.com/video/736498760?h=4f32a500f9"
               frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
           <div className="CarouselRes">
-            {/* MOD8_ITEM3 (To-Do x Planner x Tasks By Planner)
-            https://vimeo.com/736501855/b919585f9f */}
             <iframe
-              src="https://player.vimeo.com/video/735631173?h=b9d8c148bf"
+              src="https://player.vimeo.com/video/736501855?h=b919585f9f"
               frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
           <div className="CarouselRes">
-            {/* MOD7_ITEM6 (Colaboração de arquivos de forma assíncrona)
-            https://vimeo.com/736502822/de368a2acc */}
             <iframe
-              src="https://player.vimeo.com/video/735631173?h=b9d8c148bf"
+              src="https://player.vimeo.com/video/736502822?h=de368a2acc"
               frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
