@@ -78,6 +78,7 @@
   width: 100vw;
   margin-top: -86px;
   padding: 30px;
+  filter: grayscale(1);
 }
 .pIcones2 {
   text-align: center;
