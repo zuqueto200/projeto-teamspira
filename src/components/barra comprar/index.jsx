@@ -18,20 +18,20 @@ export function BarraComprar() {
       document.querySelector(".deskdesk").classList.remove("sumir");
     }
 
-    console.log(e.target.scrollingElement.scrollTop )
-    console.log(mobi)
+    // console.log(e.target.scrollingElement.scrollTop )
+    // console.log(mobi)
   }
 
   useEffect(() => {
     document.addEventListener("scroll", (e) => {
       deskMobi(e);
     });
-  },[deskMobi]);
+  }, [deskMobi]);
 
   return (
     <div className="mobiDesk ">
-        <div className="deskdesk sumir">
-            <a href="https://cursos.solotecnologia.com.br/checkout/bdn6kx">
+      <div className="deskdesk sumir">
+        <a href="https://cursos.solotecnologia.com.br/checkout/bdn6kx">
           <Fade right>
             <img
               className="barraCompraDesk"
@@ -39,11 +39,11 @@ export function BarraComprar() {
               alt="barra valor"
             />
           </Fade>
-            </a>
-        </div>
+        </a>
+      </div>
 
-        <div className="mobimobi sumir">
-            <a href="https://cursos.solotecnologia.com.br/checkout/bdn6kx">
+      <div className="mobimobi sumir">
+        <a href="https://cursos.solotecnologia.com.br/checkout/bdn6kx">
           <Fade right>
             <img
               className="barraCompraMobile "
@@ -51,8 +51,8 @@ export function BarraComprar() {
               alt="barra valor"
             />
           </Fade>
-            </a>
-        </div>
+        </a>
       </div>
+    </div>
   );
 }
