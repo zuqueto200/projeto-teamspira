@@ -12,9 +12,8 @@
 }
 
 .imgHorizontalCarousel {
-  max-width: 600px;
-  width: 70vw;
-  margin: 10px;
+  max-width:1000px;
+  width: 80vw; 
   pointer-events: none;
 }
 

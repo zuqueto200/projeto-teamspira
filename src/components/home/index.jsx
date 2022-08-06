@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import img1 from "../../assets/img/novoLogo.png";
+import img1 from "../../assets/img/Teamspira_online_transparente (2).png";
 import img2 from "../../assets/img/img (10).png";
 import img3 from "../../assets/img/img (5).png";
 import Fade from 'react-reveal/Fade';

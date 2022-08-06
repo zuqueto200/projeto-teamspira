@@ -26,41 +26,36 @@ export function CarouselVideos() {
 
             <iframe  
               src="https://player.vimeo.com/video/736497229?h=d28d119a11"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
+              frameBorder={0}
+              allowFullScreen
             ></iframe>
           </div>
           <div className="CarouselRes">
             <iframe
               src="https://player.vimeo.com/video/736497951?h=1cbd974f7f"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
+              frameBorder={0}
+              allowFullScreen
             ></iframe>
           </div>
           <div className="CarouselRes">
             <iframe
               src="https://player.vimeo.com/video/736498760?h=4f32a500f9"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
+              frameBorder={0}
+              allowFullScreen
             ></iframe>
           </div>
           <div className="CarouselRes">
             <iframe
               src="https://player.vimeo.com/video/736501855?h=b919585f9f"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
+              frameBorder={0}
+              allowFullScreen
             ></iframe>
           </div>
           <div className="CarouselRes">
             <iframe
               src="https://player.vimeo.com/video/736502822?h=de368a2acc"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
+              frameBorder={0}
+              allowFullScreen
             ></iframe>
           </div>
         </Carousel>

@@ -60,13 +60,13 @@
   flex-direction: column;
   background-color: #b6ff00;
   margin-top: 250px;
-  width: 100vw;
+  width: 100%;
 }
 
 .iconesBanner {
   top: -90px;
   max-width: 1470px;
-  width: 100%;
+  width: 100vw;
   margin-top: -86px;
   padding: 30px;
 }

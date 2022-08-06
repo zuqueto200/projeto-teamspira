@@ -21,8 +21,10 @@
   left: 250%;
   transform: translate(-50%, 0);
   cursor: pointer;
-  animation: move 0.5s linear 3s forwards;
+  animation: move 0.5s linear forwards;
 }
+
+
 
 @keyframes move {
   100% {
