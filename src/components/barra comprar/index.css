@@ -1,35 +1,40 @@
 @media screen and (max-width: 600px) {
-  .barraCompraDesk {
-    display: none;
+  .deskdesk {
+    display: none !important;
   }
-  .barraCompraMobile {
+  .mobimobi {
     display: block !important;
   }
 }
-.barraCompraMobile {
+
+.sumir{
+  display: none !important;
+}
+ 
+ 
+.deskdesk {
+  display: block;
+}
+.mobimobi {
   display: none;
+}
+
+.barraCompraMobile {
   width: 70vw;
   filter: brightness(0.95);
 }
-  .barraCompraMobile:hover {
-    filter: brightness(1);
-
-  }
-.divBarraComprar0 {
-  position: fixed;
-  bottom: 30px;
-  left: 250%;
-  transform: translate(-50%, 0);
-  cursor: pointer;
-  animation: move 0.5s linear forwards;
+.barraCompraMobile:hover {
+  filter: brightness(1);
 }
 
-
-
-@keyframes move {
-  100% {
-    left: 50%;
-  }
+.mobiDesk { 
+ 
+  position: fixed !important;
+  z-index: 1000 !important;
+  left: 50vw !important;
+  transform: translate(-50%, 0) !important;
+  bottom: 30px !important;
+  cursor: pointer !important;
 }
 
 .barraCompraDesk {

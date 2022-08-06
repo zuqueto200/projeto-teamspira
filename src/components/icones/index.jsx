@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./index.css";
 import imgIcones from "../../assets/img/img (8).png";
 import imgMobile from "../../assets/img/Apps-Mobile.png";
 import { Fade, Flip } from "react-reveal";
+import { BarraComprar } from "../barra comprar";
 
 export function Icones() {
+
+ 
+
   return (
     <div className="divIcones0">
       <Flip bottom>
@@ -13,7 +17,7 @@ export function Icones() {
         </p>
       </Flip>
 
-      <div className="bannerFundo">
+      <div className="bannerFundo" >
         <img className="iconesBanner" src={imgIcones} alt="icones microsoft" />
         <img
           className="iconesBannerCirculo"
@@ -27,6 +31,7 @@ export function Icones() {
           </p>
         </Fade>
       </div>
+    
     </div>
   );
 }
