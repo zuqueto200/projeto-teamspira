@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projeto-teamspira/static/css/main.7926aee7.css",
-    "main.js": "/projeto-teamspira/static/js/main.035c47ab.js",
+    "main.css": "/projeto-teamspira/static/css/main.63b16f35.css",
+    "main.js": "/projeto-teamspira/static/js/main.619b7887.js",
     "static/js/787.806ea842.chunk.js": "/projeto-teamspira/static/js/787.806ea842.chunk.js",
     "static/media/img (5).png": "/projeto-teamspira/static/media/img (5).c1c262de870c31b195e5.png",
     "static/media/img (17).png": "/projeto-teamspira/static/media/img (17).04c61e0bec18bac85de3.png",
@@ -15,21 +15,22 @@
     "static/media/vertical (2).png": "/projeto-teamspira/static/media/vertical (2).7fd972ebd0c597f4c1cc.png",
     "static/media/img (13).png": "/projeto-teamspira/static/media/img (13).0bf6a2300bf5b3483543.png",
     "static/media/img (16).png": "/projeto-teamspira/static/media/img (16).af1e94ae7b0faf2ba2a0.png",
+    "static/media/5.png": "/projeto-teamspira/static/media/5.8e0b396b132952af706c.png",
     "static/media/bg7.jpg": "/projeto-teamspira/static/media/bg7.227f646ec1236585f9ea.jpg",
+    "static/media/7.png": "/projeto-teamspira/static/media/7.c28fd74c6d770c7dbb57.png",
+    "static/media/3.png": "/projeto-teamspira/static/media/3.295f301b3ac077b671a2.png",
     "static/media/bg3.jpg": "/projeto-teamspira/static/media/bg3.6e1ac6e5a900a18342f8.jpg",
+    "static/media/Teamspira_online_transparente (2).png": "/projeto-teamspira/static/media/Teamspira_online_transparente (2).3924b81cd88b0806d78d.png",
+    "static/media/6.png": "/projeto-teamspira/static/media/6.21fe4318a7297a65ede0.png",
+    "static/media/4.png": "/projeto-teamspira/static/media/4.8e1e6aa0515fe43928b9.png",
     "static/media/bg2.jpg": "/projeto-teamspira/static/media/bg2.dfdd0d173f7c6ebd063e.jpg",
+    "static/media/2.png": "/projeto-teamspira/static/media/2.1615222bbd5a74753df0.png",
     "static/media/bg9.jpg": "/projeto-teamspira/static/media/bg9.7c08797a711378615e7b.jpg",
+    "static/media/1.png": "/projeto-teamspira/static/media/1.99f18b563b068517d153.png",
     "static/media/img (11).png": "/projeto-teamspira/static/media/img (11).f3cae8a640001466de52.png",
-    "static/media/Depoimentos5.png": "/projeto-teamspira/static/media/Depoimentos5.13f4a4e15647431fabc9.png",
     "static/media/barraMobile.png": "/projeto-teamspira/static/media/barraMobile.5a1937b7384c1eedb355.png",
-    "static/media/Depoimentos7.png": "/projeto-teamspira/static/media/Depoimentos7.0c4707326b638b55f250.png",
-    "static/media/Depoimentos6.png": "/projeto-teamspira/static/media/Depoimentos6.5eb66271bf223272d8cf.png",
-    "static/media/Depoimentos3.png": "/projeto-teamspira/static/media/Depoimentos3.a3e24e0e4866ef858150.png",
-    "static/media/Depoimentos4.png": "/projeto-teamspira/static/media/Depoimentos4.6005d2d12f8418210dfd.png",
     "static/media/barraDesk.png": "/projeto-teamspira/static/media/barraDesk.25fe020c0cc21a755311.png",
-    "static/media/Depoimentos2.png": "/projeto-teamspira/static/media/Depoimentos2.cd8ddce9f9e7e703e9e7.png",
     "static/media/img (2).png": "/projeto-teamspira/static/media/img (2).775fc2a5e7454e48db63.png",
-    "static/media/Depoimentos1.png": "/projeto-teamspira/static/media/Depoimentos1.8fd96a8021f1c16d5965.png",
     "static/media/bg1.jpg": "/projeto-teamspira/static/media/bg1.5fb48c355c6af4f60a57.jpg",
     "static/media/img (20).png": "/projeto-teamspira/static/media/img (20).99277c2a1bb7b89b6d5d.png",
     "static/media/bg4.jpg": "/projeto-teamspira/static/media/bg4.468059cbe55e6e127dcf.jpg",
@@ -38,12 +39,12 @@
     "static/media/img (3).png": "/projeto-teamspira/static/media/img (3).612dbc99d6ac760c7fd4.png",
     "static/media/img (1).png": "/projeto-teamspira/static/media/img (1).cab6a804ff275577984f.png",
     "index.html": "/projeto-teamspira/index.html",
-    "main.7926aee7.css.map": "/projeto-teamspira/static/css/main.7926aee7.css.map",
-    "main.035c47ab.js.map": "/projeto-teamspira/static/js/main.035c47ab.js.map",
+    "main.63b16f35.css.map": "/projeto-teamspira/static/css/main.63b16f35.css.map",
+    "main.619b7887.js.map": "/projeto-teamspira/static/js/main.619b7887.js.map",
     "787.806ea842.chunk.js.map": "/projeto-teamspira/static/js/787.806ea842.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7926aee7.css",
-    "static/js/main.035c47ab.js"
+    "static/css/main.63b16f35.css",
+    "static/js/main.619b7887.js"
   ]
 }
