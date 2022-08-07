@@ -8,7 +8,7 @@ export function Drop() {
   const [abrirMenu, setAbrirMenu] = useState(-1);
   const optons = [
     {
-      titulo: "3. Visão geral do Teams e do Microsoft 365 👁️‍🗨️",
+      titulo: "3. Visão geral do Teams e do Microsoft 365 👁️",
 
       conteudo:
         "Nós é quem somos os protagonistas, não as ferramentas. Vamos introduzir conceitos modernos de trabalho e abordaremos as principais funções do Teams e do 365.",
