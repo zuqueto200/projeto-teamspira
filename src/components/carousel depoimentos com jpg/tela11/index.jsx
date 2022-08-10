@@ -8,25 +8,25 @@ export function Drop() {
   const [abrirMenu, setAbrirMenu] = useState(-1);
   const optons = [
     {
-      titulo: "3. Visão geral do Teams e do Microsoft 365 👁️",
+      titulo: "• Visão geral do Teams e do Microsoft 365 👁️",
 
       conteudo:
         "Nós é quem somos os protagonistas, não as ferramentas. Vamos introduzir conceitos modernos de trabalho e abordaremos as principais funções do Teams e do 365.",
     },
     {
-      titulo: "5. Reuniões e calendário 📅",
+      titulo: "• Reuniões e calendário 📅",
 
       conteudo:
         "Menos reuniões, mais comunicação assíncrona. Abordaremos os calendários e as reuniões virtuais. Mostraremos que as reuniões devem ser momentos sagrados, e por isso devemos usar todos os recursos a nosso favor.",
     },
     {
-      titulo: "8. Gerenciando tarefas e projetos ✅",
+      titulo: "• Gerenciando tarefas e projetos ✅",
 
       conteudo:
         "As metodologias ágeis vieram para ficar. Abordaremos como o Planner pode ajudar a gerenciar tarefas, projetos e rotinas diárias. Também mostraremos que dar visibilidade às tarefas em equipe pode desbloquear a inteligência coletiva.",
     },
     {
-      titulo: "11. Adoção e mudança de cultura na organização 🚀",
+      titulo: "• Adoção e mudança de cultura na organização 🚀",
 
       conteudo:
         "Mudança de cultura é uma maratona, e não uma corrida de 100m! Uma coisa é aprender a mexer no Teams e conhecer os recursos disponíveis do 365. Outra coisa bem diferente é a jornada de transformação digital nas organizações. Daremos dicas de como começar essa jornada.",
@@ -51,6 +51,22 @@ export function Drop() {
               Quase 90 vídeos curtinhos e objetivos, que no final vão te ajudar
               a reiventar a forma que você e sua equipe se comunicam.
             </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <a href="https://solotecnologia.sharepoint.com/:b:/s/CursoTeamspira/EUFWgm4r7JdHhE2N7RgTB4UBEmjuj5BfcKUBFK9O6TY-0A?e=OqRDt5">
               <div className="divBtGrade">
                 <img
