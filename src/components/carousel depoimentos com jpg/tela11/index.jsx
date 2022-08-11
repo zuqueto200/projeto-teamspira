@@ -52,22 +52,7 @@ export function Drop() {
               a reiventar a forma que você e sua equipe se comunicam.
             </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <a href="https://solotecnologia.sharepoint.com/:b:/s/CursoTeamspira/EUFWgm4r7JdHhE2N7RgTB4UBEmjuj5BfcKUBFK9O6TY-0A?e=OqRDt5">
+            <a href="https://solotecnologia.sharepoint.com/:b:/s/CursoTeamspira/EUFWgm4r7JdHhE2N7RgTB4UBEmjuj5BfcKUBFK9O6TY-0A?e=OqRDt5" target={'_blanck'}>
               <div className="divBtGrade">
                 <img
                   width={40}
