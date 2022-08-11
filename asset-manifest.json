@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projeto-teamspira/static/css/main.63b16f35.css",
-    "main.js": "/projeto-teamspira/static/js/main.50d7a1be.js",
+    "main.js": "/projeto-teamspira/static/js/main.90ffe44a.js",
     "static/js/787.806ea842.chunk.js": "/projeto-teamspira/static/js/787.806ea842.chunk.js",
     "static/media/img (5).png": "/projeto-teamspira/static/media/img (5).c1c262de870c31b195e5.png",
     "static/media/img (17).png": "/projeto-teamspira/static/media/img (17).04c61e0bec18bac85de3.png",
@@ -40,11 +40,11 @@
     "static/media/img (1).png": "/projeto-teamspira/static/media/img (1).cab6a804ff275577984f.png",
     "index.html": "/projeto-teamspira/index.html",
     "main.63b16f35.css.map": "/projeto-teamspira/static/css/main.63b16f35.css.map",
-    "main.50d7a1be.js.map": "/projeto-teamspira/static/js/main.50d7a1be.js.map",
+    "main.90ffe44a.js.map": "/projeto-teamspira/static/js/main.90ffe44a.js.map",
     "787.806ea842.chunk.js.map": "/projeto-teamspira/static/js/787.806ea842.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63b16f35.css",
-    "static/js/main.50d7a1be.js"
+    "static/js/main.90ffe44a.js"
   ]
 }
