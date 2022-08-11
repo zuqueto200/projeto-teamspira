@@ -2,7 +2,6 @@ import "./index.css";
 import React, { useEffect, useRef, useState } from "react";
 import Carousel from "react-elastic-carousel";
 import { Zoom } from "react-reveal";
-import { click } from "@testing-library/user-event/dist/click";
 
 export function CarouselVideos() {
   const [reset0, setReset0] = useState(true);
@@ -67,7 +66,6 @@ export function CarouselVideos() {
         resetTime();
       }, 550);
     }
-    console.log(posicao);
   }, [posicao]);
 
   function resetTime() {
@@ -79,11 +77,6 @@ export function CarouselVideos() {
       setReset4(true);
     }, 10);
   }
-
-  useEffect(() => {
-    let video = document.querySelector(".rec");
-    video.addEventListener("click", () => {});
-  }, [ref]);
 
   return (
     <div className="divCarousel0">
